@@ -1,17 +1,8 @@
 'use client'
 
 import { useState } from 'react'
-import {
-  Check,
-  Gift,
-  Home,
-  Laptop,
-  MessageCircleQuestion,
-  Smartphone,
-  Video,
-  Wifi,
-} from 'lucide-react'
-import CalEmbed from '@/components/cal-embed'
+import { Check, Gift, Hop as Home, Laptop, MessageCircleQuestionMark as MessageCircleQuestion, Smartphone, Video, Wifi } from 'lucide-react'
+import { CalEmbed } from '@/components/cal-embed'
 import { site } from '@/lib/site'
 import { cn } from '@/lib/utils'
 
